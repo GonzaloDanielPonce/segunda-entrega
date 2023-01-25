@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,200;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topLogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 160px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.topLogo p{
+    font-size: 20px;
+}
+
+.topLogo .logo{
+    height: 140px;
+    width: 140;
+}
+
+.buttonDelivery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin: 15px;
+    height: 50px;
+    width: 160px;
+    background-color: white;
+    border: 3px solid #333333;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    cursor: pointer;
+}
+
+.buttonDelivery .foodImg{
+    height: 20px;
+    margin: 5px;
+}
+
+.buttonDelivery::before{
+    border: 2px solid #353535;
+    width: 100%;
+    height: 100%;
+    transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.5deg);
+    border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
+}
+
+.topClose{
+    border: 3px solid #333333;
+    height: 12px;
+}
+
+.initialSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.initialSection h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+}
+
+.heroContainer{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.showFood{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.food1, .food2{
+    height: 550px;
+    width: 550px;
+}
+
+.endSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.endSection h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+}
+
+.showIframe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 640px;
+}
+
+.footerContainer{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.footerContainer .footer-main{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 80px;
+    padding: 45px 0px;
+}
+
+.footerContainer .footer-main .box h2{
+    color: #1a1919;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.footerContainer .footer-main .box iframe{
+    width: 500px;
+    height: 350px;
+}
+
+.footerContainer .footer-main .box p, a{
+    color: #1a1919;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.footerContainer .footer-main .box a{
+    text-decoration: none;
+}
+
+.footerContainer .footer-main .box ul li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footerContainer .footer-main .box ul li p, a{
+    margin-top: 5px;
+}
+
+.img__socials{
+    height: 25px;
+    width: 25px;
+    margin: 8px;
+}
+
+.footerContainer .footerEnd{
+    background-color: #1a1919;
+    margin: 0;
+    width: 100%;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footerContainer .footerEnd small{
+    font-size: 20px;
+}
+
+.aboutContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+
+.showTeam{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.showTeam .chef{
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    margin: 3px;
+}
+
+.textContainer{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+.textAboutUs{
+    width: 50%;
+    background-color: white;
+    border: 3px solid #333333;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    margin: 6px;
+}
+
+.textAboutUs h2{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.showAboutUs h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+}
+
+.historyContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.textHistory{
+    width: 50%;
+    background-color: white;
+    border: 3px solid #333333;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    margin: 6px;
+}
+
+.textHistory h2{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sucursales{
+    height: 800px;
+}
+
+.secContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.secContainer h1{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sucursalC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.sucursalC .secText{
+    width: 50%;
+    background-color: white;
+    border: 3px solid #333333;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    margin: 6px;
+}
+
+.sucursalC .secText h2{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 600px;
+}
+
+.secBox .imgLoc{
+    height: 400px;
+    width: 400px;
+}
+
+.mainSection .secBox{
+    align-items: center;
+    text-align: center;
+}
+
+.mainSection .secBox h2{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.salaHonor h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+}
+
+.honorContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.honorContainer .box{
+    margin-top: 20px;
+}
+
+.honorContainer .imgLoc{
+    height: 350px;
+    width: 350px;
+}
+
+.honorContainer .box h1{
+    text-align: center;
+    margin-top: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.honorContainer .box {
+    background-repeat: no-repeat;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
